@@ -1,5 +1,6 @@
 # Recipe Book Readme
 
-This the repository for the Recipe Book, a simple html selection of recipes (WIP). The Recipe Book can be found here: https://sb-ml-py.github.io/Recipe-Book/
+Site Link: https://sb-ml-py.github.io/Recipe-Book/
 
-Future plans include the Rotation, a 1-year menu that will include a weekly shopping list (per adult) and associated daily menus with a thought to seasonality.
+## Description
+This the repository for the Recipe Book and the Rotation. Both are accesssible via the above link. The Recipe Book is a collection of recipes, while the Rotation is a year-long seasonal menu for weekly (4-people), biweekly (2-people), or monthly (one-person) shopping lists.
