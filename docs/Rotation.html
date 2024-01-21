@@ -1,0 +1,44 @@
+	<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>The Rotation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	html * {
+		line-height: 1.625;
+		color: #423E38;
+		font-family: sans-serif;
+	}
+
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.a {
+		color: #ffffff
+	}
+
+	</style>
+</head>
+
+<body style="background-color: #C6BEB0;">
+	<img src="Recipe_Book_Logo_Transparency.png" class="center" width="400" height="400"> 
+
+	<h1 style="text-align: center; font-size: 200%;">The Rotation</h1>
+	
+	<br><br><hr><br><br>
+  
+  <br><br><hr>
+		<p>Document last modified:</p>
+		<p id="lastModified"></p>
+
+		<script>
+		let text = document.lastModified;
+		document.getElementById("lastModified").innerHTML = text;
+		</script>
+</body>
+
+</html>
