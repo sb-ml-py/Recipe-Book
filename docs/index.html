@@ -20,6 +20,31 @@
 	.a {
 		color: #ffffff
 	}
+	
+	* {
+	  box-sizing: border-box;
+	}
+
+	/* Create four equal columns that floats next to each other */
+	.column {
+	  float: left;
+	  width: 25%;
+	  padding: 10px;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+	  .column {
+		width: 100%;
+	  }
+	}
 
 	</style>
 </head>
@@ -32,196 +57,141 @@
 	<h3 style="text-align: center;"><a href="Rotation.html" class="a">The Rotation</a></h3>
 	
 	<br><br><hr><br><br>
-	<h2 style="text-align: center;">Content</h2>
-	<p>
-	<a href="#StaplePrep" class = "a" style="margin-left: 40px;">Staples, Substitutions, and Preparation</a><br>
-		<a href="#Staples" class = "a" style="margin-left: 80px;">Staples</a><br>
-		<a href="#Substitutions" class = "a" style="margin-left: 80px;">Substitutions</a><br>
-		<a href="#Preparation" class = "a" style="margin-left: 80px;">Preparation</a><br>
-	<a href="#Breakfast" class = "a" style="margin-left: 40px;">Breakfast</a><br>
-			<a href="#B&L" class = "a" style="margin-left: 120px;">Bagels & Lox &#8811; &#36;</a><br>
-			<a href="#BG" class = "a" style="margin-left: 120px;">Biscuits and Gravy &#x263E;</a><br>
-			<a href="#BPor" class = "a" style="margin-left: 120px;">Bread Porridge (Changua)</a><br>
-			<a href="#BB" class = "a" style="margin-left: 120px;">Breakfast Burrito &#x2745; &#8811;</a><br>
-			<a href="#BQ" class = "a" style="margin-left: 120px;">Breakfast Quesadilla &#8811;</a><br>
-			<a href="#CBHE" class = "a" style="margin-left: 120px;">Corned Beef Hash and Eggs</a><br>
-			<a href="#Cottage" class = "a" style="margin-left: 120px;">Cottage cheese &#8811;</a><br>
-			<a href="#Shakshouka" class = "a" style="margin-left: 120px;">Eggs Poached in Tomato Sauce (Shakshouka)</a><br>
-			<a href="#EggSand" class = "a" style="margin-left: 120px;">Egg Sandwich &#x263E;</a><br>
-			<a href="#ES" class = "a" style="margin-left: 120px;">Energy Smoothie &#36;</a><br>
-			<a href="#FT" class = "a" style="margin-left: 120px;">French Toash &#x263E;</a><br>
-			<a href="#Goetta" class = "a" style="margin-left: 120px;">Fried Meatloaf (Goetta) &#x263E;</a><br>
-			<a href="#Frice" class = "a" style="margin-left: 120px;">Fried Rice</a><br>
-			<a href="#English" class = "a" style="margin-left: 120px;">Full English Breakfast</a><br>
-			<a href="#LPM" class = "a" style="margin-left: 120px;">Lemon-poppyseed Muffin</a><br>
-			<a href="#Mediterranean" class = "a" style="margin-left: 120px;">Mediterranean Breakfast (Labneh)&#8811;</a><br>
-			<a href="#Oatmeal" class = "a" style="margin-left: 120px;">Oatmeal &#x263E;</a><br>
-			<a href="#Pancakes" class = "a" style="margin-left: 120px;">Pancakes &#x263E;</a><br>
-			<a href="#Quiche" class = "a" style="margin-left: 120px;">Quiche &#x263E;</a><br>
-			<a href="#RicePud" class = "a" style="margin-left: 120px;">Rice Pudding &#x263E;</a><br>
-			<a href="#SBET" class = "a" style="margin-left: 120px;">Soft Boiled Eggs on Toast</a><br>
-			<a href="#Spanish" class = "a" style="margin-left: 120px;">Spanish Breakfast &#8811; &#36;</a><br>
-	<a href="#Lunch" class = "a" style="margin-left: 40px;">Lunch</a><br>
+	<h2 style="text-align: center;">Table of Contents</h2>
+	<div class="row">
+		<div class="column"> <!-- Breakfast -->
 			<p>
-			German Picnic
-			Peanut Butter Sandwiches (PBJ, Elvis, Peanut butter and onion)
-			Poor-boy Sandwiches (Sardine Po-boy, Saint Louis Sub)
-			<p>
-			
-	<a href="#Dinner" class = "a" style="margin-left: 40px;">Dinner</a><br>
-			<p>
-			Apple Cabbage Skillet
-			Baked Beans
-			Beef Stroganoff
-			Caramelized carrots
-			Chicken Pot Pie
-			Crispy Vegetables
-			Curry
-			Fileted fish with lemon and capers
-			Low-country boil
-			Oso Bucco
-			Pasta Puttanesca
-			Pulled Pork
-			Sausage & Sauerkraut
-			Shepherd's Pie
-			Spaghetti
-			Stir-fry
-			Sucotash
-			Tandoori Game hen
-			Whole trout
+			<a href="#Breakfast" class = "a">Breakfast</a><br>
+					<a href="#B&L" class = "a" style="margin-left: 5%;">Bagels & Lox &#8811; &#36;</a><br>
+					<a href="#BG" class = "a" style="margin-left: 5%;">Biscuits and Gravy &#x263E;</a><br>
+					<a href="#BPor" class = "a" style="margin-left: 5%;">Bread Porridge (Changua)</a><br>
+					<a href="#BB" class = "a" style="margin-left: 5%;">Breakfast Burrito &#x2745; &#8811;</a><br>
+					<a href="#BQ" class = "a" style="margin-left: 5%;">Breakfast Quesadilla &#8811;</a><br>
+					<a href="#CBHE" class = "a" style="margin-left: 5%;">Corned Beef Hash and Eggs</a><br>
+					<a href="#Cottage" class = "a" style="margin-left: 5%;">Cottage cheese &#8811;</a><br>
+					<a href="#Shakshouka" class = "a" style="margin-left: 5%;">Eggs Poached in Tomato Sauce (Shakshouka)</a><br>
+					<a href="#EggSand" class = "a" style="margin-left: 5%;">Egg Sandwich &#x263E;</a><br>
+					<a href="#ES" class = "a" style="margin-left: 5%;">Energy Smoothie &#36;</a><br>
+					<a href="#FT" class = "a" style="margin-left: 5%;">French Toast &#x263E;</a><br>
+					<a href="#Goetta" class = "a" style="margin-left: 5%;">Fried Meatloaf (Goetta) &#x263E;</a><br>
+					<a href="#Frice" class = "a" style="margin-left: 5%;">Fried Rice</a><br>
+					<a href="#English" class = "a" style="margin-left: 5%;">Full English Breakfast</a><br>
+					<a href="#LPM" class = "a" style="margin-left: 5%;">Lemon-poppyseed Muffin</a><br>
+					<a href="#Mediterranean" class = "a" style="margin-left: 5%;">Mediterranean Breakfast (Labneh)&#8811;</a><br>
+					<a href="#Oatmeal" class = "a" style="margin-left: 5%;">Oatmeal &#x263E;</a><br>
+					<a href="#Pancakes" class = "a" style="margin-left: 5%;">Pancakes &#x263E;</a><br>
+					<a href="#Quiche" class = "a" style="margin-left: 5%;">Quiche &#x263E;</a><br>
+					<a href="#RicePud" class = "a" style="margin-left: 5%;">Rice Pudding &#x263E;</a><br>
+					<a href="#SBET" class = "a" style="margin-left: 5%;">Soft Boiled Eggs on Toast</a><br>
+					<a href="#Spanish" class = "a" style="margin-left: 5%;">Spanish Breakfast &#8811; &#36;</a><br>
 			</p>
-	<a href="#SoupSalad" class = "a" style="margin-left: 40px;">Soup & Salad</a><br>
-		<a href="#Soup" class = "a" style="margin-left: 80px;">Soup</a><br>
+		</div>
+		<div class="column"> <!-- Lunch, Soup, & Salad -->
 			<p>
-			Beef stew
-			Chicken and dumplings
-			Chili
-			Clam chowder (New England style)
-			Cold tomato soup (Salmorejo)
-			Egg drop soup
-			French onion soup
-			Hamburger soup
-			Senate Bean Soup
-			Taco soup
+			<a href="#Lunch" class = "a">Lunch</a><br>
+					<a href="#German" class="a" style="margin-left: 5%;">German Picnic</a><br>
+					<a href="#Sandwich" class="a" style="margin-left: 5%">Sandwiches</a><br>
+					<a href="#Elvis" class="a" style="margin-left: 10%;">Elvis Sandwich</a><br>
+					<a href="#PBJ" class="a" style="margin-left: 10%;">Peanut Butter and Jelly</a><br>
+					<a href="#PBO" class="a" style="margin-left: 10%;">Peanut Butter and Onion</a><br>
+					<a href="#Roastbeef" class="a" style="margin-left: 10%;">Roast Beef</a><br>
+					<a href="#STL" class="a" style="margin-left: 10%;">Saint Louis Italian</a><br>
+					<a href="#Poboy" class="a" style="margin-left: 10%;">Sardine Po-Boy</a><br>
+					<a href="#VegSteak" class="a" style="margin-left: 10%;">Vegetarian Steak Sandwich</a><br>
+					
+			<a href="#SoupSalad" class = "a">Soup & Salad</a><br>
+				<a href="#Soup" class = "a" style="margin-left: 5%;">Soup</a><br>
+					<a href="#BeefStew" class="a" style="margin-left: 10%;">Beef stew</a><br>
+					<a href="#ChickDump" class="a" style="margin-left: 10%;">Chicken and dumplings</a><br>
+					<a href="#Chili" class="a" style="margin-left: 10%;">Chili</a><br>
+					<a href="#ClamChow" class="a" style="margin-left: 10%;">Clam chowder (New England style)</a><br>
+					<a href="#Salmorejo" class="a" style="margin-left: 10%;">Cold tomato soup (Salmorejo)</a><br>
+					<a href="#EggDrop" class="a" style="margin-left: 10%;">Egg drop soup</a><br>
+					<a href="#FrenchOnion" class="a" style="margin-left: 10%;">French onion soup</a><br>
+					<a href="#Hamburger" class="a" style="margin-left: 10%;">Hamburger soup</a><br>
+					<a href="#SenateBean" class="a" style="margin-left: 10%;">Senate Bean Soup</a><br>
+					<a href="#Taco" class="a" style="margin-left: 10%;">Taco soup</a><br>
+					
+				<a href="#Salad" class = "a" style="margin-left: 5%;">Salad</a><br>
+					<a href="#Caprese" class="a" style="margin-left: 10%">Caprese salad</a><br>
+					<a href="#CucSalad" class="a" style="margin-left: 10%">Cucumber salad</a><br>
+					<a href="#Nicoisse" class="a" style="margin-left: 10%">Salad Nicoisse</a><br>
 			</p>
-			
-		<a href="#Salad" class = "a" style="margin-left: 80px;">Salad</a><br>
+		</div>
+		<div class="column"> <!-- Dinner -->
 			<p>
-			Caprese salad
-			Cucumber salad
+			<a href="#Dinner" class = "a">Dinner</a><br>
+				<a href="#ACS" class="a" style="margin-left: 5%;">Apple Cabbage Skillet</a><br>
+				<a href="#BPP" class="a" style="margin-left: 5%;">Barbecue Pulled Pork</a><br>
+				<a href="#BakedBeans" class="a" style="margin-left: 5%;">Baked Beans</a><br>
+				<a href="#Carrot" class="a" style="margin-left: 5%;">Caramelized carrots</a><br>
+				<a href="#CPP" class="a" style="margin-left: 5%;">Chicken Pot Pie</a><br>
+				<a href="#Tenders" class="a" style="margin-left: 5%;">Chicken Tenders</a><br>
+				<a href="#CrispVeg" class="a" style="margin-left: 5%;">Crispy Vegetables</a><br>
+				<a href="#Curry" class="a" style="margin-left: 5%;">Curry</a><br>
+				<a href="#Duck" class="a" style="margin-left: 5%;">English Duck</a><br>
+				<a href="#FLC" class="a" style="margin-left: 5%;">Fileted white-fish with lemon and capers</a><br>
+				<a href="#LCB" class="a" style="margin-left: 5%;">Low-country boil</a><br>
+				<a href="#Mongol" class="a" style="margin-left: 5%;">Mongolian Pork</a><br>
+				<a href="#OsoBucco" class="a" style="margin-left: 5%;">Oso Bucco</a><br>
+				<a href="#Pasta" class="a" style="margin-left: 5%;">Pasta</a><br>
+					<a href="#AO" class="a" style="margin-left: 10%;;">Aglio et Olio</a><br>
+					<a href="#Stroganoff" class="a" style="margin-left: 10%;">Beef Stroganoff</a><br>
+					<a href="#Carbonara" class="a" style="margin-left: 10%;">Carbonara</a><br>
+					<a href="#Convalescent" class="a" style="margin-left: 10%;">Convalescent Pasta</a><br>
+					<a href="#IFP" class="a" style="margin-left: 10%;">Italian Flag Pasta</a><br>
+					<a href="#Spaghetti" class="a" style="margin-left: 10%;">Homeless Spaghetti</a><br>
+					<a href="#MacCheese" class="a" style="margin-left: 10%;">Macaroni and Cheese</a><br>
+					<a href="#PadThai" class="a" style="margin-left: 10%;">Pad Thai</a><br>
+					<a href="#Puttanesca" class="a" style="margin-left: 10%;">Pasta Puttanesca</a><br>
+					<a href="#RedMac" class="a" style="margin-left: 10%;">Red Macaroni</a><br>
+				<a href="#Raclette" class="a" style="margin-left: 5%;">Raclette Potatoes</a><br>
+				<a href="#Salmon" class="a" style="margin-left: 5%;">Salmon</a><br>
+				<a href="#SS" class="a" style="margin-left: 5%;">Sausage & Sauerkraut</a><br>
+				<a href="#Steak" class="a" style="margin-left: 5%;">Steak</a><br>
+				<a href="#Shepherd" class="a" style="margin-left: 5%;">Shepherd's Pie</a><br>
+				<a href="#Sucotash" class="a" style="margin-left: 5%;">Sucotash</a><br>
+				<a href="#Tandoori" class="a" style="margin-left: 5%;">Tandoori Game Hen</a><br>
+				<a href="#Trout" class="a" style="margin-left: 5%;">Trout</a><br>
 			</p>
-	<a href="#Dessert" class = "a" style="margin-left: 40px;">Dessert & Bread</a><br>
+		</div>
+		<div class="column"> <!-- Dessert, Party Food, Drinks, & Appendices -->
 			<p>
-			Chiabatta bread
-			Dutch oven bread
-			</p>
-	<a href="#Party" class = "a" style="margin-left: 40px;">Party Food & Menus</a><br>
-	<a href="#Drink" class = "a" style="margin-left: 40px;">Drinks</a><br>
-	<a href="#Icon" class="a" style="margin-left: 40px;">Symbol Key</a><br>
-	</p>
-	
-	<br><br><hr><br><br>
-	<h1 id="StaplePrep" style="text-align: center;">Staples, Substitutions, and Preparation</h1>
-				<p>
-				Staples are some of the most essential food items to have in the house. They are multipurpose, and therefore can be made into many interesting meals with minimal specialty shopping. Also present within this section are directions on how to prepare foods from the store.
-				</p>
-	
-		<h2 id="Staples">Staples</h2>
-				<p>
-				Produce
-				<ul>
-				<li>Apples</li>
-				<li>Cabbage</li>
-				<li>Fresh herbs (grow your own: basil, chives, cilantro, dill, mint, parsley)</li>
-				<li>Onions</li>
-				<li>Oranges</li>
-				<li>Pears</li>
-				<li>Potatoes</li>
-				</ul>
-				Meat*
-				<ul>
-				<li>Chicken thighs</li>
-				<li>Ground beef</li>
-				<li>Ground sausage</li>
-				<li>Pork butt steak</li>
-				<li>Stew beef</li>
-				<li>*See prep section for variable use of meat</li>
-				</ul>
-				Grocery
-				<ul>
-				<li>Baking powder</li>
-				<li>Balsamic vinegar</li>
-				<li>Canned beans (dry beans are more economical but much more work)</li>
-				<li>Canned chopped clams</li>
-				<li>Canned sardines</li>
-				<li>Canned salmon</li>
-				<li>Cocoa powder</li>
-				<li>Coffee</li>
-				<li>Extra virgin olive oil</li>
-				<li>Flour (all purpose or bread)</li>
-				<li>French bread</li>
-				<li>Honey</li>
-				<li>Maple syrup</li>
-				<li>Pasta</li>
-				<li>Raisins</li>
-				<li>Salt (iodized)</li>
-				<li>Soy sauce (dark)</li>
-				<li>Spices (bay leaves, black pepper, cayenne pepper, cinnamon, cloves, cumin, garlic powder (granulated garlic), nutmeg, oregano, star anise) </li>
-				<li>Sugar</li>
-				<li>Tomato paste</li>
-				<li>Whiskey (try rye)</li>
-				<li>Wine (cream sherry, marsala, madiera, or tawny port are most versatile and store longest)</li>
-				</ul>
-				Dairy
-				<ul>
-				<li>Butter</li>
-				<li>Eating-cheese (cheddar, farmer's cheese, gouda, pepperjack, provel, provelone)
-				<li>Eggs (large)</li>
-				<li>Greek yogurt</li>
-				<li>Hard cheese (gruyere, parmesan, pecorino)</li>
-				<li>Milk</li>
-				</ul>
-				Frozen
-				<ul>
-				<li>Broccoli</li>
-				<li>Ice cream</li>
-				<li>Spinach</li>
-				<li>Stir fry vegetable mix</li>
-				</ul>
-				</p>
+			<a href="#Dessert" class = "a">Dessert & Bread</a><br>
+				<a href="#ApplePie" class="a" style="margin-left: 5%">Apple Pie</a><br>
+				<a href="#Blueberry" class="a" style="margin-left: 5%">Blueberry Delight</a><br>
+				<a href="#Strata" class="a" style="margin-left: 5%">Blueberry Strata</a><br>
+				<a href="#Ciabatta" class="a" style="margin-left: 5%">Chiabatta bread</a><br>
+				<a href="#DOB" class="a" style="margin-left: 5%">Dutch oven bread</a><br>
+				<a href="#Mimi" class="a" style="margin-left: 5%">Mimi Cookies</a><br>
+				<a href="#PieCrust" class="a" style="margin-left: 5%">Pie Crust</a><br>
+				<a href="#Rhubarb" class="a" style="margin-left: 5%">Rhubarb Pie</a><br>
+					
+			<a href="#Party" class = "a">Party Food</a><br>
+				<a href="#Elizabeth" class="a" style="margin-left: 5%">Elizabeth Salad</a><br>
 				
-		<h2 id="Substitutions">Substitutions</h2>
-				<p>
-				<ul>
-				<li><u>Baking oil:</u> Butter = canola oil = lard = shortening = vegetable oil</li>
-				<li>Brown sugar = white sugar + molasses</li>
-				<li>Egg = apple sauce</li>
-				<li>Milk = cream + water = half n' half + water</li>
-				<li>Parmesan = pecorino = gruyere</li>
-				<li>Red wine = marsala = madiera = tawny port = cream sherry = balsamic vinegar
-				<li>Sour cream = greek yogurt = creme fraiche = cream cheese</li>
-				<li><u>Savory cooking oil:</u> Bacon fat = butter = canola oil = lard = olive oil = shortening = vegetable oil</li>
-				<li><u>Thickener:</u> Barley = bread = cornstarch = flour = 
-				<li>White wine = dry sherry = white port = cream sherry = tawny port = white wine vinegar + water = apple cider vinegar + water</li>
-				</ul>
-				</p>
-		<h2 id="Preparation">Preparation</h2>
-			<h3>Produce</h3>
-				<p>
-				<ul>
-				<li>Fresh herbs can be stored in a cup of water in the refrigerator.</li>
-				<li>Potatoes should be stored in the dark because they produce a toxic green pigment when exposed to light (Do not eat a green potato).</li>
-				</ul>
-				</p>
-		
-			<h3>Meat</h3>
-				<p>
-				<ul>
-				<li><u>Beef:</u> Ground beef is best at 80/20. New york strip steak and T-bone steaks are best for grilling or broiling. Any roast (top round, bottom round, brisket, london broil) can be cubed into small portions of stew beef for freezing.</li>
-				<li><u>Chicken:</u> A whole chicken (raw or cooked) is divided as follows: Using a chef's knife and with the chicken on its back, separate the leg quarters (thigh and drum) by cutting through the hip-joint from the inner thigh. Similarly, remove the wings at the shoulder-joint. Cut just to the right of the breast-bone until you feel the ribs then push laterally with the side of the knife to remove the right breast, and repeat for the left breast. All that now remains is the carcass with a small amount of meat on the shoulders and hips, which can be useful for soup. Chicken leg quarters are best split into thighs and drums at the knee, and the thighs should be de-boned before freezing (otherwise they can taste bloody).</li>
-				<li><u>Pork:</u> Sausage is a more flavorful substitute for ground beef (salsiccia or hot breakfast sausage are both reliable)</li>
-				</ul>
-				</p>
+			<a href="#Drink" class = "a">Drinks</a><br>
+				<a href="#Afternoon" class="a" style="margin-left: 5%;">Afternoon Wine</a><br>
+				<a href="#Beermosa" class="a" style="margin-left: 5%;">Beermosa</a><br>
+				<a href="#Maria" class="a" style="margin-left: 5%;">Bloody Maria</a><br>
+				<a href="#Churchill" class="a" style="margin-left: 5%;">Churchill</a><br>
+				<a href="#Cowboy" class="a" style="margin-left: 5%;">Cowboy Coffee</a><br>
+				<a href="#Hangover" class="a" style="margin-left: 5%;">Cure Hangover</a><br>
+				<a href="#SoreThroat" class="a" style="margin-left: 5%;">Cure Sore Throat</a><br>
+				<a href="#Iceberg" class="a" style="margin-left: 5%;">Dirty Iceberg</a><br>
+				<a href="#Cocoa" class="a" style="margin-left: 5%;">Hot cocoa</a><br>
+				<a href="#RustyNail" class="a" style="margin-left: 5%;">Rusty Nail</a><br>
+				<a href="#Sunshine" class="a" style="margin-left: 5%;">Sunshine</a><br>
+				<a href="#ThaiCoffee" class="a" style="margin-left: 5%;">Thai Coffee</a><br>
+			
+			<a href="#StaplePrep" class = "a">Staples, Substitutions, and Preparation</a><br>
+				<a href="#Staples" class = "a" style="margin-left: 5%;">Staples</a><br>
+				<a href="#Substitutions" class = "a" style="margin-left: 5%;">Substitutions</a><br>
+				<a href="#Preparation" class = "a" style="margin-left: 5%;">Preparation</a><br>
+			<a href="#Icon" class="a">Symbol Key</a><br>
+			</p>
+		</div>
+	</div>
 				
 	<br><br><hr><br><br>
 	<h1 id="Breakfast" style="text-align: center;">Breakfast</h1>
@@ -328,7 +298,7 @@
 					<u>Serve:</u><br>
 					</p>
 					
-				<h3 id="FT">French Toash</h3>
+				<h3 id="FT">French Toast</h3>
 					<p>
 					<u>Ingredients:</u><br>
 					<ul>
@@ -456,23 +426,854 @@
 
 	<br><br><br><br>
 	<h1 id="Lunch" style="text-align: center;">Lunch</h1>
-	
-	<br><br><br><br>
-	<h1 id="Dinner" style="text-align: center;">Dinner</h1>
-	
+			<h3 id="German">German Picnic</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+					
+		<h2 id="Sandwich">Sandwiches</h2>
+		
+			<h3 id="Elvis">Elvis Sandwich</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+					
+			<h3 id="PBJ">Peanut Butter and Jelly</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+			<h3 id="PBO">Peanut Butter and Onion</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+					
+			<h3 id="Roastbeef">Roast Beef</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+					
+			<h3 id="STL">Saint Louis Italian</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+					
+			<h3 id="Poboy">Sardine Po-Boy</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+					
+			<h3 id="VegSteak">Vegetarian Steak Sandwich</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+					
 	<br><br><br><br>
 	<h1 id="SoupSalad" style="text-align: center;">Soup & Salad</h1>
 		<h2 id="Soup">Soup</h2>
+			<h3 id="BeefStew">Beef stew</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+					
+			<h3 id="ChickDump">Chicken and dumplings</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+					
+			<h3 id="Chili">Chili</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="ClamChow">Clam chowder (New England style)</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Salmorejo">Cold tomato soup (Salmorejo)</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="EggDrop">Egg drop soup</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="FrenchOnion">French onion soup</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Hamburger">Hamburger soup</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="SenateBean">Senate Bean Soup</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Taco">Taco soup</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
 		<h2 id="Salad">Salad</h2>
+			<h3 id="Caprese">Caprese salad</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="CucSalad">Cucumber salad</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Nicoisse">Salad Nicoisse</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+	
+	<br><br><br><br>
+	<h1 id="Dinner" style="text-align: center;">Dinner</h1>
+			<h3 id="ACS">Apple Cabbage Skillet</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="BPP">Barbecue Pulled Pork</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="BakedBeans">Baked Beans</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Carrot">Caramelized carrots</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="CPP">Chicken Pot Pie</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Tenders">Chicken Tenders</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="CrispVeg">Crispy Vegetables</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Curry">Curry</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Duck">English Duck</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="FLC">Fileted white-fish with lemon and capers</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="LCB">Low-country boil</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Mongol">Mongolian Pork</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="OsoBucco">Oso Bucco</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+		<h2 id="Pasta">Pasta</h2>
+			<h3 id="AO">Aglio et Olio</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Stroganoff">Beef Stroganoff</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Carbonara">Carbonara</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Convalescent">Convalescent Pasta</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="IFP">Italian Flag Pasta</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Spaghetti">Homeless Spaghetti</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="MacCheese">Macaroni and Cheese</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="PadThai">Pad Thai</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Puttanesca">Pasta Puttanesca</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="RedMac">Red Macaroni</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Raclette">Raclette Potatoes</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Salmon">Salmon</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="SS">Sausage & Sauerkraut</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Steak">Steak</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Shepherd">Shepherd's Pie</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Sucotash">Sucotash</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Tandoori">Tandoori Game Hen</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Trout">Trout</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
 	
 	<br><br><br><br>
 	<h1 id="Dessert" style="text-align: center;">Dessert & Bread</h1>
+			<h3 id="ApplePie">Apple Pie</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Blueberry">Blueberry Delight</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Strata">Blueberry Strata</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Ciabatta">Chiabatta bread</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="DOB">Dutch oven bread</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Mimi">Mimi Cookies</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="PieCrust">Pie Crust</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Rhubarb">Rhubarb Pie</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
 	
 	<br><br><br><br>
-	<h1 id="Party" style="text-align: center;">Party Food & Menus</h1>
+	<h1 id="Party" style="text-align: center;">Party Food</h1>
+			<h3 id="Elizabeth">Elizabeth Salad</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
 	
 	<br><br><br><br>
 	<h1 id="Drink" style="text-align: center;">Drinks</h1>
+			<h3 id="Afternoon">Afternoon Wine</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Beermosa">Beermosa</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Maria">Bloody Maria</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Churchill">Churchill</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Cowboy">Cowboy Coffee</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Hangover">Cure Hangover</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="SoreThroat">Cure Sore Throat</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Iceberg">Dirty Iceberg</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Cocoa">Hot cocoa</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="RustyNail">Rusty Nail</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="Sunshine">Sunshine</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+				
+			<h3 id="ThaiCoffee">Thai Coffee</h3>
+				<p>
+				<u>Ingredients:</u><br>
+				<ul>
+				</ul>
+				<u>Directions:</u><br>
+				<br><br>
+				<u>Serve:</u><br>
+				</p>
+	
+	<br><br><hr><br><br>
+	
+	<h1 id="StaplePrep" style="text-align: center;">Staples, Substitutions, and Preparation</h1>
+			<p>
+			Staples are some of the most essential food items to have in the house. They are multipurpose, and therefore can be made into many interesting meals with minimal specialty shopping. Also present within this section are directions on how to prepare foods from the store.
+			</p>
+
+	<h2 id="Staples">Staples</h2>
+			<p>
+			Produce
+				<ul>
+					<li>Apples</li>
+					<li>Cabbage</li>
+					<li>Fresh herbs (grow your own: basil, chives, cilantro, dill, mint, parsley)</li>
+					<li>Onions</li>
+					<li>Oranges</li>
+					<li>Pears</li>
+					<li>Potatoes</li>
+				</ul>
+			Meat*
+				<ul>
+					<li>Chicken thighs</li>
+					<li>Ground beef</li>
+					<li>Ground sausage</li>
+					<li>Pork butt steak</li>
+					<li>Stew beef</li>
+					<li>*See prep section for variable use of meat</li>
+				</ul>
+			Grocery
+				<ul>
+					<li>Baking powder</li>
+					<li>Balsamic vinegar</li>
+					<li>Canned beans (dry beans are more economical but much more work)</li>
+					<li>Canned chopped clams</li>
+					<li>Canned sardines</li>
+					<li>Canned salmon</li>
+					<li>Cocoa powder</li>
+					<li>Coffee</li>
+					<li>Extra virgin olive oil</li>
+					<li>Flour (all purpose or bread)</li>
+					<li>French bread</li>
+					<li>Honey</li>
+					<li>Maple syrup</li>
+					<li>Pasta</li>
+					<li>Raisins</li>
+					<li>Salt (iodized)</li>
+					<li>Soy sauce (dark)</li>
+					<li>Spices (bay leaves, black pepper, cayenne pepper, cinnamon, cloves, cumin, garlic powder (granulated garlic), nutmeg, oregano, star anise) </li>
+					<li>Sugar</li>
+					<li>Tomato paste</li>
+					<li>Whiskey (try rye)</li>
+					<li>Wine (cream sherry, marsala, madiera, or tawny port are most versatile and store longest)</li>
+				</ul>
+			Dairy
+				<ul>
+					<li>Butter</li>
+					<li>Eating-cheese (cheddar, farmer's cheese, gouda, pepperjack, provel, provelone)</li>
+					<li>Eggs (large)</li>
+					<li>Greek yogurt</li>
+					<li>Hard cheese (gruyere, parmesan, pecorino)</li>
+					<li>Milk</li>
+				</ul>
+			Frozen
+				<ul>
+					<li>Broccoli</li>
+					<li>Ice cream</li>
+					<li>Spinach</li>
+					<li>Stir fry vegetable mix</li>
+				</ul>
+			</p>
+			
+	<h2 id="Substitutions">Substitutions</h2>
+			<p>
+				<ul>
+					<li><u>Baking oil:</u> Butter = canola oil = lard = shortening = vegetable oil</li>
+					<li>Brown sugar = white sugar + molasses</li>
+					<li>Egg = apple sauce</li>
+					<li>Milk = cream + water = half n' half + water</li>
+					<li>Parmesan = pecorino = gruyere</li>
+					<li>Red wine = marsala = madiera = tawny port = cream sherry = balsamic vinegar</li>
+					<li>Sour cream = greek yogurt = creme fraiche = cream cheese</li>
+					<li><u>Savory cooking oil:</u> Bacon fat = butter = canola oil = lard = olive oil = shortening = vegetable oil</li>
+					<li><u>Thickener:</u> Barley = bread = cornstarch = flour </li>
+					<li>White wine = dry sherry = white port = cream sherry = tawny port = white wine vinegar + water = apple cider vinegar + water</li>
+				</ul>
+			</p>
+			
+	<h2 id="Preparation">Preparation</h2>
+		<h3>Produce</h3>
+			<p>
+				<ul>
+					<li>Fresh herbs can be stored in a cup of water in the refrigerator.</li>
+					<li>Potatoes should be stored in the dark because they produce a toxic green pigment when exposed to light (Do not eat a green potato).</li>
+				</ul>
+			</p>
+	
+		<h3>Meat</h3>
+			<p>
+				<ul>
+					<li><u>Beef:</u> Ground beef is best at 80/20. New york strip steak and T-bone steaks are best for grilling or broiling. Any roast (top round, bottom round, brisket, london broil) can be cubed into small portions of stew beef for freezing.</li>
+					<li><u>Chicken:</u> A whole chicken (raw or cooked) is divided as follows: Using a chef's knife and with the chicken on its back, separate the leg quarters (thigh and drum) by cutting through the hip-joint from the inner thigh. Similarly, remove the wings at the shoulder-joint. Cut just to the right of the breast-bone until you feel the ribs then push laterally with the side of the knife to remove the right breast, and repeat for the left breast. All that now remains is the carcass with a small amount of meat on the shoulders and hips, which can be useful for soup. Chicken leg quarters are best split into thighs and drums at the knee, and the thighs should be de-boned before freezing (otherwise they can taste bloody).</li>
+					<li><u>Pork:</u> Sausage is a more flavorful substitute for ground beef (salsiccia or hot breakfast sausage are both reliable)</li>
+				</ul>
+			</p>
 	
 	<br><br><br><br>
 	<h1 id="Icon" style="text-align: center;">Icon Key</h1>
